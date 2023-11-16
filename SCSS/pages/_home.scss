@@ -1,0 +1,7 @@
+// This is the styling of the page.
+// Creates a stylesheet depending on which components we include here
+
+@use "../components/navbar"; // styles navbar
+@use "../components/header"; // Styles header
+@use "../components/content"; // Styles content container
+@use "../components/footer"; // Styles the footer

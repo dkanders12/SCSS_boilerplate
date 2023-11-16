@@ -1,0 +1,15 @@
+// The only file to include in your HTML is the compiled version of this (main.css)
+@use "./pages/home.scss"; // all styling is created from this page file
+@use "./theme/theme"; // use theme on all pages
+
+// Global styling for body
+body {
+  box-sizing: border-box;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+* {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,15 @@
+@use "../layout/grid";
+@use "../layout/position";
+
+#footer {
+  height: 20vh;
+  display: grid;
+  margin-top: auto;
+  ul {
+    @include grid.gridLayout(4, 16px);
+    li {
+      @include position.positionSelfCenter();
+      list-style: none;
+    }
+  }
+}

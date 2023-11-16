@@ -1,0 +1,14 @@
+@use "../helpers/variables"; // Use variables in this file
+
+// Styles main section
+#content {
+  display: grid;
+  width: 70%;
+  margin: auto;
+  padding: variables.$spacing-medium;
+  margin-bottom: variables.$spacing-large;
+  h2 {
+    font-size: 3rem;
+  }
+  text-align: center;
+}
